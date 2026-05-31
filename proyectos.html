@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyectos — David LDH</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="index.html"></a>
+      <ul>
+        <li><a href="index.html#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+        <li><a href="proyectos.html" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="index.html#contacto" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+      <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Cambiar idioma / Switch language">EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="todos-proyectos">
+      <h1 data-i18n="allprojects.heading">Proyectos</h1>
+      <p class="section-intro" data-i18n="allprojects.intro">
+        Listado completo de proyectos, tanto en desarrollo como planificados y
+        finalizados.
+      </p>
+      <div class="project-groups all"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+
+  <script src="data/i18n.js"></script>
+  <script src="data/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

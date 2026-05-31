@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" role="img" aria-label="Contador de emojis de WhatsApp">
+  <rect x="0" y="0" width="400" height="180" rx="10" fill="#fbf5e6"/>
+  <!-- burbuja de chat -->
+  <path d="M120 45 h160 a18 18 0 0 1 18 18 v44 a18 18 0 0 1 -18 18 h-120 l-26 22 v-22 h-14 a18 18 0 0 1 -18 -18 v-44 a18 18 0 0 1 18 -18 Z" fill="#25d366"/>
+  <!-- cara sonriente -->
+  <circle cx="200" cy="85" r="26" fill="#fdfdf7"/>
+  <circle cx="191" cy="80" r="3.5" fill="#38322a"/>
+  <circle cx="209" cy="80" r="3.5" fill="#38322a"/>
+  <path d="M188 92 q12 12 24 0" stroke="#38322a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- mini contadores -->
+  <g font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700" fill="#1f7a78">
+    <text x="300" y="70">x128</text>
+    <text x="300" y="95">x86</text>
+    <text x="300" y="120">x57</text>
+  </g>
+</svg>

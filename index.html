@@ -3,40 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>David LDH</title>
+  <title>David LDH — Ingeniería de datos</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header>
     <nav>
-      <span class="logo"></span>
+      <a class="logo" href="index.html"></a>
       <ul>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="index.html#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+        <li><a href="proyectos.html" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="index.html#contacto" data-i18n="nav.contact">Contacto</a></li>
       </ul>
+      <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Cambiar idioma / Switch language">EN</button>
     </nav>
   </header>
 
   <main>
     <section id="hero">
-      <h1></h1>
-      <p class="subtitle"></p>
+      <div class="hero-text">
+        <h1 data-i18n="hero.title"></h1>
+        <p class="subtitle" data-i18n="hero.subtitle"></p>
+        <div class="hero-actions">
+          <a class="btn" href="proyectos.html" data-i18n="hero.cta"></a>
+        </div>
+      </div>
+      <img class="hero-img" src="img/hero-data.svg" alt="Ilustración de ingeniería de datos" />
     </section>
 
     <section id="sobre-mi">
-      <h2>Sobre mí</h2>
-      <p></p>
+      <h2 data-i18n="about.heading">Sobre mí</h2>
+      <p data-i18n="about.body"></p>
     </section>
 
     <section id="proyectos">
-      <h2>Proyectos</h2>
-      <div class="projects-grid"></div>
+      <h2 data-i18n="projects.heading">Proyectos</h2>
+      <div class="project-groups"></div>
+      <p class="section-more">
+        <a href="proyectos.html" data-i18n="projects.more">Ver la lista completa de proyectos →</a>
+      </p>
     </section>
 
     <section id="contacto">
-      <h2>Contacto</h2>
-      <p>Puedes encontrarme en:</p>
+      <h2 data-i18n="contact.heading">Contacto</h2>
+      <p data-i18n="contact.intro">Puedes encontrarme en:</p>
       <ul class="contact-links"></ul>
     </section>
   </main>
@@ -45,6 +55,7 @@
     <p></p>
   </footer>
 
+  <script src="data/i18n.js"></script>
   <script src="data/content.js"></script>
   <script src="js/main.js"></script>
 </body>

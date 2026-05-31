@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" role="img" aria-label="Pipeline de datos en arquitectura Medallion">
+  <rect x="0" y="0" width="400" height="180" rx="10" fill="#fbf5e6"/>
+  <!-- capas medallion -->
+  <g font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="40" y="50" width="90" height="80" rx="8" fill="#cd7f32"/>
+    <text x="85" y="95" fill="#fff">Bronze</text>
+
+    <rect x="155" y="50" width="90" height="80" rx="8" fill="#9aa4ad"/>
+    <text x="200" y="95" fill="#fff">Silver</text>
+
+    <rect x="270" y="50" width="90" height="80" rx="8" fill="#d4af37"/>
+    <text x="315" y="95" fill="#fff">Gold</text>
+  </g>
+  <!-- flechas -->
+  <g fill="#1f7a78">
+    <path d="M132 90 l16 0 l0 -5 l9 5 l-9 5 l0 -5 Z"/>
+    <path d="M247 90 l16 0 l0 -5 l9 5 l-9 5 l0 -5 Z"/>
+  </g>
+  <text x="200" y="28" text-anchor="middle" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" fill="#7a7063">DATA PIPELINE</text>
+</svg>

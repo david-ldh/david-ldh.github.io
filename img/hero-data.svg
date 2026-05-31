@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" role="img" aria-label="Ilustración de ingeniería de datos">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2aa3a0"/>
+      <stop offset="1" stop-color="#1f7a78"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="360" height="280" rx="16" fill="#f7efdd"/>
+  <!-- conexiones -->
+  <g stroke="#1f7a78" stroke-width="2.5" opacity="0.5">
+    <line x1="70" y1="80" x2="170" y2="55"/>
+    <line x1="70" y1="80" x2="160" y2="150"/>
+    <line x1="170" y1="55" x2="280" y2="90"/>
+    <line x1="160" y1="150" x2="280" y2="90"/>
+    <line x1="160" y1="150" x2="250" y2="200"/>
+    <line x1="280" y1="90" x2="250" y2="200"/>
+  </g>
+  <!-- nodos -->
+  <g fill="url(#g)">
+    <circle cx="70" cy="80" r="16"/>
+    <circle cx="170" cy="55" r="13"/>
+    <circle cx="160" cy="150" r="18"/>
+    <circle cx="280" cy="90" r="14"/>
+    <circle cx="250" cy="200" r="12"/>
+  </g>
+  <!-- barras -->
+  <g fill="#1f7a78">
+    <rect x="60" y="215" width="20" height="40" rx="3"/>
+    <rect x="92" y="195" width="20" height="60" rx="3"/>
+    <rect x="124" y="225" width="20" height="30" rx="3"/>
+  </g>
+  <rect x="55" y="255" width="105" height="3" rx="1.5" fill="#d6c9a8"/>
+</svg>
