@@ -3,7 +3,7 @@ const content = {
   title: "Hola, soy David",
   subtitle: "Bienvenido a mi página personal",
 
-  about: "Aquí va una breve descripción sobre ti.",
+  about: "Soy ingeniero de Telecomunicaciones con experiencia en Radiofrecuenta y actualmente desarrollando habiliadades en ingeniería de datos.",
 
   projects: [
     {
