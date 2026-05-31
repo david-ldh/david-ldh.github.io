@@ -4,7 +4,7 @@ const content = {
 
   // Fuente única de proyectos.
   //   featured: true  -> aparece en la portada
-  //   status: "en-desarrollo" | "completado" | "planificado"  (clave, se traduce en i18n.js)
+  //   status: "in-progress" | "completed" | "planned"  (clave, se traduce en i18n.js)
   //   titles / descriptions: un texto por idioma (es / en)
   projects: [
     {
@@ -17,7 +17,7 @@ const content = {
         en: "End-to-end data pipeline with a Medallion architecture (Bronze → Silver → Gold) for an online education platform. It processes enrollment, course and progress datasets with data-quality validation and incremental ingestion, generating business metrics such as completion rates and revenue by category.",
       },
       tech: ["Databricks", "PySpark", "Delta Live Tables", "Delta Lake", "Python"],
-      status: "completado",
+      status: "completed",
       featured: true,
       image: "img/edustream.svg",
       url: "https://github.com/david-ldh/edustream-pipeline-DLDH",
@@ -32,7 +32,7 @@ const content = {
         en: "Tool that parses exported WhatsApp chats and counts the emojis used to produce usage statistics.",
       },
       tech: ["Python"],
-      status: "en-desarrollo",
+      status: "in-progress",
       featured: true,
       image: "img/whatsapp-emoji.svg",
       url: "#",

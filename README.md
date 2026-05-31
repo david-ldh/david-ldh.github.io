@@ -28,7 +28,7 @@ Sitio web personal y portafolio enfocado en **ingeniería de datos**, construido
 ```
 Pagina_web_personal/
 ├── index.html          # Página principal (hero, sobre mí, proyectos, contacto)
-├── proyectos.html      # Listado completo de proyectos
+├── projects.html       # Listado completo de proyectos
 ├── css/
 │   └── styles.css      # Estilos globales y variables de tema
 ├── js/
@@ -38,19 +38,6 @@ Pagina_web_personal/
 │   └── i18n.js         # Textos de interfaz (ES / EN)
 └── img/                # Ilustraciones SVG
 ```
-
----
-
-## 🚀 Ejecutar en local
-
-Al ser un sitio estático, basta con abrir `index.html` en el navegador. Para reproducir el comportamiento de GitHub Pages, sirve los archivos con un servidor local:
-
-```bash
-# Con Python
-python -m http.server 8000
-```
-
-Luego visita **http://localhost:8000**.
 
 ---
 
@@ -70,7 +57,7 @@ Luego visita **http://localhost:8000**.
   titles: { es: "Mi proyecto", en: "My project" },
   descriptions: { es: "Descripción…", en: "Description…" },
   tech: ["Python", "SQL"],
-  status: "en-desarrollo",   // completado | en-desarrollo | planificado
+  status: "in-progress",   // completed | in-progress | planned
   featured: true,             // true -> aparece en la portada
   image: "img/mi-proyecto.svg",
   url: "https://github.com/usuario/repo",

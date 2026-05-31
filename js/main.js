@@ -62,7 +62,7 @@ function projectCard(p, lang) {
 
 // Renderiza proyectos agrupados por estado dentro de un contenedor.
 function renderGroupedProjects(container, projects, lang) {
-  const order = ["completado", "en-desarrollo", "planificado"];
+  const order = ["completed", "in-progress", "planned"];
   const byStatus = {};
   projects.forEach((p) => {
     (byStatus[p.status] = byStatus[p.status] || []).push(p);
@@ -94,7 +94,7 @@ function render(lang) {
   setText("footer p", `© ${content.footerYear} ${content.name}`);
 
   // Portada: proyectos destacados
-  const featuredContainer = document.querySelector("#proyectos .project-groups");
+  const featuredContainer = document.querySelector("#projects .project-groups");
   if (featuredContainer) {
     renderGroupedProjects(
       featuredContainer,
@@ -115,7 +115,7 @@ function render(lang) {
   }
 
   // Página de todos los proyectos
-  const allContainer = document.querySelector("#todos-proyectos .project-groups");
+  const allContainer = document.querySelector("#all-projects .project-groups");
   if (allContainer) {
     renderGroupedProjects(allContainer, content.projects, lang);
   }

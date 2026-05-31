@@ -124,10 +124,12 @@ section {
 }
 
 .hero-img {
-  flex: 0 1 320px;
+  display: block;
+  flex: 0 1 380px;
   width: 100%;
-  max-width: 340px;
+  max-width: 420px;
   height: auto;
+  border-radius: 12px;
 }
 
 h1 {
@@ -164,7 +166,7 @@ h3 {
 }
 
 .section-more a,
-#todos-proyectos h1 + .section-intro a {
+#all-projects h1 + .section-intro a {
   color: var(--color-accent);
   text-decoration: none;
   font-weight: 600;
@@ -295,17 +297,17 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.status-en-desarrollo {
+.status-in-progress {
   background-color: #fbe7c6;
   color: #9a6212;
 }
 
-.status-planificado {
+.status-planned {
   background-color: #d8e6f3;
   color: #2c5f86;
 }
 
-.status-completado {
+.status-completed {
   background-color: #d6ecd9;
   color: #2f7a3d;
 }
